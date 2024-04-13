@@ -25,7 +25,7 @@ export const fetchMovie = async (id) => {
   }
 };
 
-// Function to fetch popular movies
+// Function to fetch the popular movies
 export const fetchPopularMovies = async (page = 1) => {
   const API_URL = `${BASE_URL}/movie/popular?api_key=${API_KEY}&language=${LANGUAGE}&page=${page}`;
   try {
